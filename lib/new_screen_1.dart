@@ -13,14 +13,15 @@ class _newscreen1State extends State<newscreen1> {
     return Scaffold(
       appBar: AppBar(
         title: Text("this is tittle"),
+        backgroundColor: Colors.blue,
+        centerTitle: true,
       ),
       body: Column(
         children: [
           Text("Stawberry"),
           Padding(
             padding: EdgeInsets.all(8),
-            child: Text(
-                "this is yo yo funny singh here come for singing if u want to here song okay than get out"),
+            child: Text("hey here is Divyanshu We r learning flutter "),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
