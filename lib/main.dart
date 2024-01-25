@@ -1,4 +1,5 @@
 import 'package:first_app/App_bar_screen.dart';
+import 'package:first_app/app_view.dart';
 import 'package:first_app/new_screen_1.dart';
 import 'package:first_app/restaurant.dart';
 import 'package:flutter/material.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const restaurant(),
+      home: const appview(),
     );
   }
 }

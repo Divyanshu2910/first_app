@@ -23,7 +23,7 @@ class _restaurantState extends State<restaurant> {
                 width: MediaQuery.of(context).size.width,
                 fit: BoxFit.cover,
               ),
-              Positioned(
+              const Positioned(
                   bottom: 0,
                   left: 0,
                   right: 0,
@@ -35,11 +35,11 @@ class _restaurantState extends State<restaurant> {
                   )),
             ],
           ),
-          Row(
+          const Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: EdgeInsets.all(8.0),
                 child: Column(
                   children: [
                     Icon(
@@ -52,7 +52,7 @@ class _restaurantState extends State<restaurant> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: EdgeInsets.all(8.0),
                 child: Column(
                   children: [
                     Icon(
@@ -65,7 +65,7 @@ class _restaurantState extends State<restaurant> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: EdgeInsets.all(8.0),
                 child: Column(
                   children: [
                     Icon(
@@ -78,7 +78,7 @@ class _restaurantState extends State<restaurant> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: EdgeInsets.all(8.0),
                 child: Column(
                   children: [
                     Icon(
@@ -92,7 +92,7 @@ class _restaurantState extends State<restaurant> {
               ),
             ],
           ),
-          Row(
+          const Row(
             children: [
               Text(
                 "Ingredients Required",
@@ -102,8 +102,8 @@ class _restaurantState extends State<restaurant> {
           ),
           Container(
               color: Colors.black12,
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
+              child: const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(children: [
                   Icon(
                     Icons.add_circle,
@@ -116,8 +116,8 @@ class _restaurantState extends State<restaurant> {
               )),
           Container(
               color: Colors.black38,
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
+              child: const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(children: [
                   Icon(
                     Icons.remove_circle,
