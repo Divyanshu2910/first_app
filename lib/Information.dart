@@ -100,9 +100,7 @@ class _InformationState extends State<Information> {
                 focusNode: contactFocusNode,
                 controller: contactcontroller,
                 keyboardType: TextInputType.phone,
-                inputFormatters: <TextInputFormatter>[
-                  FilteringTextInputFormatter.digitsOnly
-                ],
+                inputFormatters: [FilteringTextInputFormatter.digitsOnly],
                 decoration: const InputDecoration(
                     focusedBorder: OutlineInputBorder(
                         borderSide: BorderSide(color: Colors.red, width: 2)),

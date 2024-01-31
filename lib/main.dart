@@ -1,7 +1,11 @@
 import 'package:first_app/App_bar_screen.dart';
 import 'package:first_app/Information.dart';
 import 'package:first_app/app_view.dart';
+import 'package:first_app/login/First_screen.dart';
+import 'package:first_app/login/Forgot_pass.dart';
+import 'package:first_app/login/sign_up.dart';
 import 'package:first_app/new_screen_1.dart';
+import 'package:first_app/otp_Screen.dart';
 import 'package:first_app/restaurant.dart';
 import 'package:flutter/material.dart';
 import 'new_screen_1.dart';
@@ -39,7 +43,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Information(),
+      home: Firstscreen(),
     );
   }
 }
